@@ -1,0 +1,135 @@
+.productdetailsmaindiv{
+    padding:1vmax 10vmax;
+    display: flex;
+    
+}
+.reviews-heading>h3{
+text-align: center;
+margin-bottom: 1vmax;
+}
+.productDetails-image{
+    flex:1;
+    height: 80vh;
+    margin-right: 2vmax;
+
+}
+.product-details{
+    flex:2
+}
+.product-details > :first-child{
+    margin-bottom: 2vmax;
+}
+.product-details>span{
+    margin-bottom: 2vmax;
+}
+.product-reviewscards{
+    padding: 0 10vmax;
+}
+.reviews-heading>hr{
+    width: 20vw;
+    }
+.review-container{
+    display: flex;
+    overflow: auto;
+}
+.review-container>p{
+    font: 400 1.5vmax Arial;
+    color: rgb(107, 88, 88);
+    text-align: center;
+    margin: 2vmax auto;
+}
+.price{
+    
+    font:400 1.5vmax "Roboto"
+    
+}
+.rating{
+    display: flex;
+    font:400 1.3vmax "Roboto";
+}
+.ratingreview{
+    margin-top: 1.4vmax;
+    display: flex;
+    text-align: center;
+    border-top: 1px solid rgb(202, 195, 195);
+    
+}
+.ratingreview>span{
+    display: flex;
+    align-items: center;
+    font:400 1vmax "Roboto";
+}
+.withoutofferprice{
+    margin-left: 1vmax;
+    text-decoration: line-through;
+    opacity: 40%;
+    font:800 1vmax "Roboto"
+}
+.addminustocart{
+    margin-top:2vmax;
+    margin-bottom: 2vmax;
+}
+.addminustocart>button{
+    border: 1px solid rgb(129, 117, 117);
+    border-radius: 50%;
+    margin-right: .4vmax;
+    height: 1.4vmax;
+    width: 1.4vmax;
+}
+.addminustocart>button:hover{
+   cursor: pointer;   
+}
+.addminustocart>input{
+    width: 2vmax;
+    font:400 1vmax "Roboto" ;
+    margin-right: .4vmax;
+}
+.instock{
+    color: rgb(75, 74, 163);
+    
+}
+.outofstock{
+ color: rgb(245, 18, 18);
+}
+.stock{
+    margin-bottom: 2vmax;
+    border-top: 1px solid rgb(206, 199, 199);
+}
+div.cartaddbutton > button > svg{
+    color: rgb(248, 252, 255);
+    margin:auto .4vmax;
+}
+
+.cartaddbutton{
+    margin-top: 4vmax;
+    display: flex;
+    justify-content: space-between;
+      
+}
+.cartaddbutton>button{
+    display: flex;
+    align-items: center;
+    padding: 8px .4vmax;
+    width: 8vmax;
+    border: 1px;
+    font:500 1vmax "Sans-serif";
+    cursor: pointer;
+}
+.cartaddbutton>:first-child{
+    margin-left: 5vmax;
+    margin-right: 1.9vmax;
+    background-color: rgb(47, 51, 104);
+    color: aliceblue;
+    width: 10vmax;
+}
+.cartaddbutton>:first-child:hover{
+    background-color: rgb(2, 9, 109);
+
+}
+.cartaddbutton>button:nth-child(2){
+    background-color: rgb(252, 155, 40);
+    
+}
+.cartaddbutton>button:nth-child(2):hover{
+    background-color: rgb(252, 74, 40);
+}

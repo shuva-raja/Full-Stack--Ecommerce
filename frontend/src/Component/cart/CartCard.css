@@ -1,0 +1,57 @@
+.cartSingle{
+    display: flex;
+    justify-content: space-between;
+   border-bottom: 1px solid rgb(172, 167, 167);
+   background-color: white;
+   padding:1vmax 1vmax;
+   
+}
+.cartsingleimage{
+    display: flex;
+    flex-direction: column;
+    
+}
+.cartsingleimage>img{
+    width: 8vw;
+    height: 17vh;
+}
+.cartoptions{
+    display: flex;
+    font: 400 1vmax "Roboto";
+    color: black;
+}
+.cartoptions>p{
+    margin-left: 2vmax;
+}
+.cartoptions>p:nth-child(1):hover{
+    cursor: pointer;
+    color: rgb(0, 68, 255);
+    }
+.cartoptions>p:nth-child(2):hover{
+cursor: pointer;
+    color: red;
+}
+.cartbuttons{
+    display: flex;
+    margin: 1vmax 0;
+    justify-content: center;
+}
+.cartsingledetails{
+    flex: 2;
+    margin-left: 2vmax;
+}
+.cartbuttons>button{
+    border-radius: 50%;
+    border: 1px solid rgb(129, 117, 117);;
+}
+.cartbuttons>button:hover{
+    cursor: pointer;
+    background-color: rgb(211, 223, 223);
+}
+.cartbuttons>input{
+    width: 1.5vmax;
+    margin: 0 2px;
+    text-align:end;
+
+    
+}

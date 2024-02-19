@@ -1,0 +1,41 @@
+.image{
+    box-sizing: border-box;
+    display: flex;
+    height: 55vh;
+}
+.singleimage{
+    width: 4vw;
+    height: 10vh;
+    border: 1px solid rgb(238, 223, 223);
+}
+.singleimage:hover{
+    cursor: pointer;
+    border-color: blue;
+}
+.scroll{
+    height: 50vh;
+    margin-right: 1vmax;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+  
+  /* Optional: Customize scrollbar appearance */
+  .scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scroll::-webkit-scrollbar-thumb {
+    background-color: rgba(197, 195, 59, 0.2);
+    border-radius: 10px;
+  }
+  
+  .scroll::-webkit-scrollbar-track {
+    background-color: rgba(240, 7, 7, 0.1);
+    border-radius: 10px;
+  }
+.image-show{
+    width: 20vw;
+    height: 55vh;
+}

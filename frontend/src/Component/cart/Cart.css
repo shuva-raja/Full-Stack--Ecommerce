@@ -1,0 +1,36 @@
+.cart-parent{
+    position: relative;
+    padding: 0 15vw;
+    display: flex;
+    min-height: 100vh;
+    height: fit-content;
+    background-color: rgb(237, 241, 245)
+    
+}
+.cart-items{
+    flex: 2.5;
+    
+    border: 1px solid rgb(214, 207, 207);
+    
+}
+.cart-total{
+    flex:1;
+    margin-left: 2vmax;
+    padding: 2vmax ;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+}
+.placeorderbtn{
+    position: absolute;
+    right:23vw;
+    top:40vh;
+    padding: 1vmax;
+    font: 400 1vmax "Roboto";
+    background-color: rgb(205, 107, 50);
+    color: white;
+    border: none;
+}
+.placeorderbtn:hover{
+    background-color: rgb(231, 105, 32);
+    cursor: pointer;
+}

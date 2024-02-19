@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+.login-parent{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: flex-end;
+}
+.loginpage{
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+   border-radius: 5px;
+   margin-right: 10vw;
+   margin-bottom: 20vh;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border: none;
+}
+.loginpage>h3{
+    font: 600 2vmax 'Protest Riot', sans-serif;
+    color: linear-gradient(to right, royalblue 0%, crimson 100%);
+}
+.login-inputs{
+    position: relative;
+}
+.login-icons{
+    position: absolute;
+    padding-left: .4vw;
+    padding-right: .4vw;
+    border-right: 1px solid black;
+}
+.login-inputs>input{
+    width: 20vw;
+    height: 2.1vw;
+    margin-bottom: .9vmax;
+    padding-left: calc(2.7vw);
+    border: 1px  solid silver;
+    font: 400 1vmax "Roboto" ;
+    outline: none;
+}
+.login-submit{
+    margin-left: 35%;
+    width: 30%;
+    height: 3.5vh;
+    color: white;
+   font:300 1vmax "Roboto";
+   border-radius: 1%;
+   cursor: pointer;
+   background: linear-gradient(to right, royalblue 0%, crimson 100%);
+}
+.login-submit:hover{
+    background: linear-gradient(to right, hsl(220, 94%, 35%) 0%, hsl(350, 98%, 24%) 100%);
+}
+.forget-pass{
+    text-decoration: none;
+    margin-left: 68%;
+    margin-bottom: 1vmax;
+    color: black;
+    font:400 1vmax "Roboto"
+    
+}
+.loginpage>p{
+    font:400 1vmax "Roboto";
+    margin: 10px auto;
+}
+.create-new{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font: 800 1vmax "Roboto";
+}

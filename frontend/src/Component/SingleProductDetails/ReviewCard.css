@@ -1,0 +1,15 @@
+
+.reviewCard{
+    min-height: 15vh;
+    width: 12vw;
+    
+    background-color: rgb(255, 255, 255);
+    margin: 2em;
+    padding: .5em;
+    border: 1px solid gray;
+    outline: none;
+}
+.reviewCard>img{
+    width: 3vmax;
+    height: 3vmax;
+}
